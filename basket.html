@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../1st/css/style.css" />
+    <title>basket</title>
+  </head>
+  <body>
+    <header class="header_m">
+      <div class="container_m">
+        <div class="menuFlex">
+          <nav class="menuBoxL">
+            <a class="logoPos" href="index.html"
+              ><img src="../1st/imgs/logo.svg" alt="logo"
+            /></a>
+            <a class="searchPos" href="#"
+              ><img src="../1st/imgs/search.svg" alt="search"
+            /></a>
+          </nav>
+          <nav class="menuBoxR">
+            <div class="menuPos">
+              <div class="active_menu_link">
+                <img src="../1st/imgs/menu.svg" alt="menu" />
+                <nav class="menu">
+                  <h3 class="menu__head">Menu</h3>
+                  <div class="menu__list">
+                    <div class="close"></div>
+                    <h4 class="menu__head__section">Man</h4>
+                    <a class="menu__link" href="#">Accessories</a>
+                    <a class="menu__link" href="#">Bags</a>
+                    <a class="menu__link" href="#">Denim</a>
+                    <a class="menu__link" href="#">T-Shirts</a>
+                  </div>
+                  <div class="menu__list">
+                    <h4 class="menu__head__section">Woman</h4>
+                    <a class="menu__link" href="#">Accessories</a>
+                    <a class="menu__link" href="#">Jackets & Coats</a>
+                    <a class="menu__link" href="#">Polos</a>
+                    <a class="menu__link" href="#">T-Shirts</a>
+                    <a class="menu__link" href="#">Shirts</a>
+                  </div>
+                  <div class="menu__list">
+                    <h4 class="menu__head__section">Kids</h4>
+                    <a class="menu__link" href="#">Accessories</a>
+                    <a class="menu__link" href="#">Jackets & Coats</a>
+                    <a class="menu__link" href="#">Polos</a>
+                    <a class="menu__link" href="#">T-Shirts</a>
+                    <a class="menu__link" href="#">Shirts</a>
+                    <a class="menu__link" href="#">Bags</a>
+                  </div>
+                </nav>
+              </div>
+            </div>
+            <a class="logInPos" href="registration.html" target="_blank"
+              ><img src="../1st/imgs/logIn.svg" alt="login"
+            /></a>
+            <a class="recPos" href="basket.html"
+              ><img src="../1st/imgs/rec.svg" alt="rec"
+            /></a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container_m">
+        <div><h3 class="shopping_cart_style">SHOPPING CART</h3></div>
+        <div class="flex_cont_carts">
+          <div class="flex_shopping_carts">
+            <div class="cart_fst">
+              <div>
+                <img
+                  class="basket_img_w"
+                  src="../1st/imgs/cart1.jpg"
+                  alt="photo"
+                />
+              </div>
+              <div>
+                <h3 class="cart_h3">MANGO PEOPLE T-SHIRT&nbsp;&nbsp;</h3>
+                <ul class="list_cart_fst">
+                  <li class="li_class_carts">
+                    Price: <span class="span_style_cart">$300</span>
+                  </li>
+                  <li class="li_class_carts">Color: Red</li>
+                  <li class="li_class_carts">Size: Xl</li>
+                  <li class="li_class_carts">
+                    Quantity:
+                    <input
+                      class="input_number"
+                      type="number"
+                      min="1"
+                      max="99"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="cart_tht">
+              <div>
+                <img
+                  class="basket_img_w"
+                  src="../1st/imgs/cart2.jpg"
+                  alt="photo"
+                />
+              </div>
+              <div>
+                <h3 class="cart_h3">MANGO PEOPLE T-SHIRT&nbsp;&nbsp;</h3>
+                <ul class="list_cart_fst">
+                  <li class="li_class_carts">
+                    Price: <span class="span_style_cart">$300</span>
+                  </li>
+                  <li class="li_class_carts">Color: Red</li>
+                  <li class="li_class_carts">Size: Xl</li>
+                  <li class="li_class_carts">
+                    Quantity:
+                    <input
+                      class="input_number"
+                      type="number"
+                      min="1"
+                      max="99"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="buttons_flex contain_652 vis_in">
+              <button
+                class="button_under_shopping a_hover_cursor"
+                name="button_shop_1"
+              >
+                CLEAR SHOPPING CART
+              </button>
+              <button
+                class="button_under_shopping a_hover_cursor"
+                name="button_shop_2"
+              >
+                CONTINUE SHOPPING
+              </button>
+            </div>
+          </div>
+          <div class="ml_sh_carts">
+            <div class="cart_snd">
+              <h3 class="h3_shipping">SHIPPING ADRESS</h3>
+              <input
+                class="input_shipping"
+                type="text"
+                placeholder="Bangladesh"
+              />
+              <input class="input_shipping" type="text" placeholder="State" />
+              <input
+                class="input_shipping"
+                type="text"
+                placeholder="Postcode / Zip"
+              />
+              <button class="button_qoute a_hover_cursor" name="button_qoute">
+                GET A QUOTE
+              </button>
+            </div>
+
+            <div class="cart_frth">
+              <div>
+                <p class="par_sub">SUB TOTAL $900</p>
+                <p class="par_total">
+                  GRAND TOTAL <span class="span_total">&nbsp;$900</span>
+                </p>
+                <button class="button_total a_hover_cursor" name="button_total">
+                  PROCEED TO CHECKOUT
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buttons_flex contain_652 vis_out">
+          <button
+            class="button_under_shopping a_hover_cursor"
+            name="button_shop_1"
+          >
+            CLEAR SHOPPING CART
+          </button>
+          <button
+            class="button_under_shopping a_hover_cursor"
+            name="button_shop_2"
+          >
+            CONTINUE SHOPPING
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="foot_Second">
+        <div class="container_m">
+          <section class="fs_flex_just">
+            <figure class="fl">
+              <img class="max_ph" src="../1st/imgs/Intersect.png" alt="photo" />
+              <h3 class="h3_Under_Photo">
+                “Vestibulum quis porttitor dui! Quisque viverra nunc mi,<dfn>
+                  a pulvinar purus condimentum</dfn
+                >“
+              </h3>
+            </figure>
+            <div class="Subscribe_Flex">
+              <div class="h3_second">
+                SUBSCRIBE<br />
+                <span class="span_on_h3">
+                  FOR OUR NEW LETTER AND PROMOTION</span
+                >
+                <form class="Subscribe_foot">
+                  <input class="input_Foot" type="email" placeholder="E-mail" />
+                  <a class="button_subs_foot" href="#"
+                    ><span class="span_Subs_st">Subscribe</span></a
+                  >
+                </form>
+              </div>
+            </div>
+          </section>
+          <nav></nav>
+        </div>
+      </div>
+      <div class="foot_Last">
+        <div class="container_m">
+          <div class="foot_Flex">
+            <div class="AllRR">&copy;2022 Brand All Rights Reserved.</div>
+            <nav class="navigation_on_footer">
+              <div class="marg_foot_a">
+                <div class="bord_around_a_foot_1">
+                  <a href="#"
+                    ><img
+                      class="img_foot_hover"
+                      src="../1st/imgs/5.png"
+                      alt="facebook"
+                  /></a>
+                </div>
+              </div>
+
+              <div class="marg_foot_a">
+                <div class="bord_around_a_foot_2">
+                  <a href="#"
+                    ><img
+                      class="img_foot_hover"
+                      src="../1st/imgs/4.png"
+                      alt="inst"
+                  /></a>
+                </div>
+              </div>
+              <div class="marg_foot_a">
+                <div class="bord_around_a_foot_3">
+                  <a href="#"
+                    ><img
+                      class="img_foot_hover"
+                      src="../1st/imgs/6.png"
+                      alt="pinterest"
+                  /></a>
+                </div>
+              </div>
+              <div class="marg_foot_a">
+                <div class="bord_around_a_foot_4">
+                  <a href="#"
+                    ><img
+                      class="img_foot_hover"
+                      src="../1st/imgs/2.png"
+                      alt="twitter"
+                  /></a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
